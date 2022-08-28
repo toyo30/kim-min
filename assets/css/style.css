@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Inconsolata", monospace;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: "Nanum Myeongjo", serif;
   color: #0d1e2d;
 }
 
@@ -23,10 +23,15 @@ a:hover {
   color: #000;
 }
 
-h1, h2, h3, h4, h5, h6, .font-heading {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-heading {
   font-family: "Raleway", sans-serif;
 }
-
 
 #hero {
   width: 100%;
@@ -50,6 +55,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   font-family: "Poppins", sans-serif;
 }
 #hero .btn-get-started {
+  position: absolute;
+  bottom: 100px;
   font-size: 64px;
   transition: 0.5s;
   color: #fff;
@@ -76,7 +83,6 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   }
 }
 
-
 .section {
   padding: 7rem 0;
 }
@@ -89,7 +95,9 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   padding-right: 10px;
   position: relative;
 }
-.filters a:hover, .filters a:focus, .filters a:active {
+.filters a:hover,
+.filters a:focus,
+.filters a:active {
   text-decoration: none;
 }
 .filters a:hover:before {
@@ -180,7 +188,6 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .testimonial-wrap {
   padding: 50px 50px 80px 50px;
-  
 }
 .testimonial-wrap.fir {
   background: url("../img/me-back2.jpeg") no-repeat center !important;
@@ -190,7 +197,6 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .opacity {
   opacity: 0;
 }
-
 
 .testimonial-wrap.sec {
   background: url("../img/me-back4.jpeg") no-repeat center !important;
@@ -233,7 +239,9 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   transition: 0.2s all ease;
   font-weight: 700;
 }
-.readmore:active, .readmore:focus, .readmore:hover {
+.readmore:active,
+.readmore:focus,
+.readmore:hover {
   outline: none;
 }
 .readmore:hover {
@@ -285,7 +293,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   padding-top: 10px !important;
   padding-bottom: 10px !important;
 }
-.form-control:active, .form-control:focus {
+.form-control:active,
+.form-control:focus {
   background: #eff1f4;
   outline: none;
   box-shadow: none;
@@ -371,7 +380,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .custom-navmenu {
   background: #0d1e2d;
 }
-.custom-navmenu .custom-menu, .custom-navmenu .custom-menu li {
+.custom-navmenu .custom-menu,
+.custom-navmenu .custom-menu li {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -429,7 +439,9 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   position: relative;
 }
 
-.burger:before, .burger span, .burger:after {
+.burger:before,
+.burger span,
+.burger:after {
   width: 100%;
   height: 2px;
   display: block;
@@ -439,9 +451,16 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   opacity: 1;
 }
 
-.burger:before, .burger:after {
-  transition: top 0.35s cubic-bezier(0.23, 1, 0.32, 1), transform 0.35s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.35s cubic-bezier(0.23, 1, 0.32, 1), background-color 1.15s cubic-bezier(0.86, 0, 0.07, 1);
-  -webkit-transition: top 0.35s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 0.35s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.35s cubic-bezier(0.23, 1, 0.32, 1), background-color 1.15s cubic-bezier(0.86, 0, 0.07, 1);
+.burger:before,
+.burger:after {
+  transition: top 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+    transform 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+    opacity 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+    background-color 1.15s cubic-bezier(0.86, 0, 0.07, 1);
+  -webkit-transition: top 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+    -webkit-transform 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+    opacity 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+    background-color 1.15s cubic-bezier(0.86, 0, 0.07, 1);
   content: "";
 }
 
@@ -471,7 +490,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   opacity: 0;
 }
 
-.burger.active:before, .burger.active:after {
+.burger.active:before,
+.burger.active:after {
   top: 40%;
 }
 
@@ -518,8 +538,6 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   color: #000;
 }
 
-
-
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -545,7 +563,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   transition: all 0.3s ease-in-out;
   border-radius: 3px;
 }
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #fff;
   background: #e03a3c;
 }
@@ -639,14 +658,20 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   margin-top: 20px;
   position: relative;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
   border: 1px solid #e03a3c;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #e03a3c;
 }
 .portfolio-details .portfolio-info {
