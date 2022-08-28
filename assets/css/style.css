@@ -538,9 +538,19 @@ h6,
   color: #000;
 }
 
+.copyright-text {
+  margin: 0 auto;
+  text-align: center;
+}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+.portfolio-margin {
+  padding-top: 100px;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
