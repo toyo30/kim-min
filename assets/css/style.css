@@ -378,7 +378,7 @@ h6,
 --------------------------------------------------------------*/
 /* Custom Navmenu */
 .custom-navmenu {
-  background: #0d1e2d;
+  background: #fff;
 }
 .custom-navmenu .custom-menu,
 .custom-navmenu .custom-menu li {
@@ -391,7 +391,7 @@ h6,
   font-size: 20px;
 }
 .custom-navmenu .custom-menu li a {
-  color: #fff;
+  color: rgba(0, 0, 0, 0.9);
   padding: 10px 0 !important;
 }
 .custom-navmenu .custom-menu li a:hover {
@@ -405,10 +405,10 @@ h6,
   color: #fff;
 }
 .custom-navmenu p {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 0, 0, 0.9);
 }
 .custom-navmenu a {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.9);
 }
 .custom-navmenu a:hover {
   color: #fff;
