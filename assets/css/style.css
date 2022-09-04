@@ -443,12 +443,40 @@ h6,
   font-weight: 900;
 }
 
+.navbar-link-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-link-box {
+  display: none;
+}
+
+.navbar-link {
+  margin-left: 2rem;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+
+@media (min-width: 780px) {
+  .navbar-link-box {
+    display: block;
+  }
+}
+
 /* Burger */
 .burger {
   width: 28px;
   height: 32px;
   cursor: pointer;
   position: relative;
+}
+
+@media (min-width: 780px) {
+  .burger {
+    display: none;
+  }
 }
 
 .burger:before,
