@@ -1,120 +1,122 @@
 /**
-* Template Name: MyPortfolio - v4.7.0
-* Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-(function() {
+ * Template Name: MyPortfolio - v4.7.0
+ * Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
+ * Author: BootstrapMade.com
+ * License: https://bootstrapmade.com/license/
+ */
+(function () {
   "use strict";
 
   /**
    * Easy selector helper function
    */
   const select = (el, all = false) => {
-    el = el.trim()
+    el = el.trim();
     if (all) {
-      return [...document.querySelectorAll(el)]
+      return [...document.querySelectorAll(el)];
     } else {
-      return document.querySelector(el)
+      return document.querySelector(el);
     }
-  }
+  };
 
   /**
    * Easy event listener function
    */
   const on = (type, el, listener, all = false) => {
-    let selectEl = select(el, all)
+    let selectEl = select(el, all);
     if (selectEl) {
       if (all) {
-        selectEl.forEach(e => e.addEventListener(type, listener))
+        selectEl.forEach((e) => e.addEventListener(type, listener));
       } else {
-        selectEl.addEventListener(type, listener)
+        selectEl.addEventListener(type, listener);
       }
     }
-  }
+  };
 
   /**
-   * Easy on scroll event listener 
+   * Easy on scroll event listener
    */
   const onscroll = (el, listener) => {
-    el.addEventListener('scroll', listener)
-  }
+    el.addEventListener("scroll", listener);
+  };
 
   /**
    * burgerMenu
    */
-  const burgerMenu = select('.burger')
-  on('click', '.burger', function(e) {
-    burgerMenu.classList.toggle('active');
-  })
+  const burgerMenu = select(".burger");
+  on("click", ".burger", function (e) {
+    burgerMenu.classList.toggle("active");
+  });
 
   /**
    * Porfolio isotope and filter
    */
-  window.addEventListener('load', () => {
-    let portfolioContainer = select('#portfolio-grid');
+  window.addEventListener("load", () => {
+    let portfolioContainer = select("#portfolio-grid");
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.item',
+        itemSelector: ".item",
       });
 
-      let portfolioFilters = select('#filters a', true);
+      let portfolioFilters = select("#filters a", true);
 
-      on('click', '#filters a', function(e) {
-        e.preventDefault();
-        portfolioFilters.forEach(function(el) {
-          el.classList.remove('active');
-        });
-        this.classList.add('active');
+      on(
+        "click",
+        "#filters a",
+        function (e) {
+          e.preventDefault();
+          portfolioFilters.forEach(function (el) {
+            el.classList.remove("active");
+          });
+          this.classList.add("active");
 
-        portfolioIsotope.arrange({
-          filter: this.getAttribute('data-filter')
-        });
-        portfolioIsotope.on('arrangeComplete', function() {
-          AOS.refresh()
-        });
-      }, true);
+          portfolioIsotope.arrange({
+            filter: this.getAttribute("data-filter"),
+          });
+          portfolioIsotope.on("arrangeComplete", function () {
+            AOS.refresh();
+          });
+        },
+        true
+      );
     }
-
   });
 
   /**
    * Testimonials slider
    */
-  new Swiper('.testimonials-slider', {
+  new Swiper(".testimonials-slider", {
     speed: 600,
     loop: true,
     autoplay: {
       delay: 5000,
-      disableOnInteraction: false
+      disableOnInteraction: false,
     },
-    slidesPerView: 'auto',
+    slidesPerView: "auto",
     pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
+      el: ".swiper-pagination",
+      type: "bullets",
+      clickable: true,
+    },
   });
 
   /**
    * Animation on scroll
    */
-  window.addEventListener('load', () => {
+  window.addEventListener("load", () => {
     AOS.init({
       duration: 1000,
-      easing: 'ease-in-out',
+      easing: "ease-in-out",
       once: true,
-      mirror: false
-    })
+      mirror: false,
+    });
   });
-
-})()
-
+})();
 
 /**
-   * Hero Slider
-   */
- var swiper = new Swiper(".sliderFeaturedPosts", {
+ * Hero Slider
+ */
+var swiper = new Swiper(".sliderFeaturedPosts", {
   spaceBetween: 0,
   speed: 500,
   centeredSlides: true,
@@ -134,41 +136,44 @@
   },
 });
 
-
 /**
-   * Porfolio isotope and filter
-   */
- window.addEventListener('load', () => {
-  let portfolioContainer = select('.portfolio-container');
+ * Porfolio isotope and filter
+ */
+window.addEventListener("load", () => {
+  let portfolioContainer = select(".portfolio-container");
   if (portfolioContainer) {
     let portfolioIsotope = new Isotope(portfolioContainer, {
-      itemSelector: '.portfolio-item',
-      layoutMode: 'fitRows'
+      itemSelector: ".portfolio-item",
+      layoutMode: "fitRows",
     });
 
-    let portfolioFilters = select('#portfolio-flters li', true);
+    let portfolioFilters = select("#portfolio-flters li", true);
 
-    on('click', '#portfolio-flters li', function(e) {
-      e.preventDefault();
-      portfolioFilters.forEach(function(el) {
-        el.classList.remove('filter-active');
-      });
-      this.classList.add('filter-active');
+    on(
+      "click",
+      "#portfolio-flters li",
+      function (e) {
+        e.preventDefault();
+        portfolioFilters.forEach(function (el) {
+          el.classList.remove("filter-active");
+        });
+        this.classList.add("filter-active");
 
-      portfolioIsotope.arrange({
-        filter: this.getAttribute('data-filter')
-      });
-      portfolioIsotope.on('arrangeComplete', function() {
-        AOS.refresh()
-      });
-    }, true);
+        portfolioIsotope.arrange({
+          filter: this.getAttribute("data-filter"),
+        });
+        portfolioIsotope.on("arrangeComplete", function () {
+          AOS.refresh();
+        });
+      },
+      true
+    );
   }
-
 });
 
 /**
- * Initiate portfolio lightbox 
+ * Initiate portfolio lightbox
  */
 const portfolioLightbox = GLightbox({
-  selector: '.portfolio-lightbox'
+  selector: ".portfolio-lightbox",
 });

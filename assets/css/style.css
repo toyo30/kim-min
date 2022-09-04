@@ -83,10 +83,6 @@ h6,
   }
 }
 
-.section {
-  padding: 10rem 0;
-}
-
 .filters a {
   text-decoration: none;
   color: #000;
@@ -253,17 +249,33 @@ h6,
 }
 
 .testimonials-slider {
-  height: 12rem;
+  height: 18rem;
+  padding-bottom: 2rem;
+  box-sizing: content-box;
 }
 
-@media (min-width: 780px) {
+.section {
+  padding: 3rem 0;
+}
+
+@media (min-width: 575px) {
+  .testimonials-slider {
+    height: 30rem;
+  }
+
+  .section {
+    padding: 10rem 0;
+  }
+}
+
+@media (min-width: 1024px) {
   .testimonials-slider {
     height: 50rem;
   }
 }
 
 .testimonials-slider .swiper-pagination {
-  margin-top: -60px;
+  /* margin-top: -60px; */
   position: relative;
 }
 .testimonials-slider .swiper-pagination .swiper-pagination-bullet {
