@@ -187,18 +187,10 @@ h6,
   box-sizing: border-box;
   height: 100%;
 }
-.testimonial-wrap.fir {
-  background: url("../img/me-back2.jpeg") no-repeat center !important;
-  background-size: contain !important;
-}
 
-.opacity {
-  opacity: 0;
-}
-
-.testimonial-wrap.sec {
-  background: url("../img/me-back4.jpeg") no-repeat center !important;
-  background-size: contain !important;
+img.opacity {
+  opacity: 1;
+  width: 100%;
 }
 
 .testimonial-wrap .testimonial {
@@ -207,8 +199,8 @@ h6,
   margin: 0 auto;
 }
 .testimonial-wrap .testimonial img {
-  border-radius: 50%;
-  width: 120px;
+  max-width: 100%;
+  height: 100%;
   margin: 0 auto 30px auto;
 }
 .testimonial-wrap .testimonial blockquote p {
