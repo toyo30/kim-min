@@ -77,7 +77,7 @@
             AOS.refresh();
           });
         },
-        true
+        true,
       );
     }
   });
@@ -166,7 +166,7 @@ window.addEventListener("load", () => {
           AOS.refresh();
         });
       },
-      true
+      true,
     );
   }
 });
