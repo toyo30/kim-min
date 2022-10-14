@@ -8,6 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html,
 body {
   font-family: "Inconsolata", monospace;
   font-family: "Nanum Myeongjo", serif;
@@ -23,7 +24,7 @@ a:hover {
   color: #000;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -31,7 +32,7 @@ h5,
 h6,
 .font-heading {
   font-family: "Raleway", sans-serif;
-}
+} */
 
 #hero {
   width: 100%;
@@ -69,7 +70,7 @@ h6,
 }
 #hero .btn-get-started {
   position: absolute;
-  bottom: 100px;
+  bottom: 10px;
   font-size: 64px;
   transition: 0.5s;
   color: #fff;
@@ -479,6 +480,7 @@ img.portfolio-lightbox {
 .custom-navmenu .custom-menu li {
   margin-bottom: 0;
   font-size: 20px;
+  font-weight: 400;
 }
 .custom-navmenu .custom-menu li a {
   color: rgba(0, 0, 0, 0.9);
@@ -1222,5 +1224,15 @@ img.portfolio-lightbox {
     width: 100%;
     text-align: center;
     font-size: 1.8rem;
+  }
+}
+
+.contact.h3.mb-4 {
+  font-size: 1.4rem;
+}
+
+@media (min-width: 780px) {
+  .contact.h3.mb-4 {
+    font-size: 2rem;
   }
 }
