@@ -767,9 +767,18 @@ img.portfolio-lightbox {
   font-style: italic;
 }
 .portfolio .portfolio-wrap .portfolio-links {
+  position: absolute;
+  top: 4px;
+  right: 4px;
   text-align: center;
   z-index: 4;
 }
+
+.portfolio-click {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 28px;
+}
+
 .portfolio .portfolio-wrap .portfolio-links a {
   color: rgba(255, 255, 255, 0.4);
   margin: 0 5px 0 0;
@@ -1296,3 +1305,8 @@ body.before-load {
 /* .loading-circle:hover circle {
 	stroke-dashoffset: -157;
 } */
+
+.glightbox-clean .gprev,
+.glightbox-clean .gnext {
+  top: 50%;
+}
