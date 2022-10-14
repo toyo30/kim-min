@@ -9,13 +9,13 @@
     target: "concept1",
     urlLength: 7,
     urlList: [
-      "assets/img/portfolio/concept1/sub1.jpeg",
-      "assets/img/portfolio/concept1/sub2.jpeg",
-      "assets/img/portfolio/concept1/sub3.jpeg",
-      "assets/img/portfolio/concept1/sub4.jpeg",
-      "assets/img/portfolio/concept1/sub5.jpeg",
-      "assets/img/portfolio/concept1/sub6.jpeg",
-      "assets/img/portfolio/concept1/sub7.jpeg",
+      "assets/img/portfolioResize/concept1/sub1.jpeg",
+      "assets/img/portfolioResize/concept1/sub2.jpeg",
+      "assets/img/portfolioResize/concept1/sub3.jpeg",
+      "assets/img/portfolioResize/concept1/sub4.jpeg",
+      "assets/img/portfolioResize/concept1/sub5.jpeg",
+      "assets/img/portfolioResize/concept1/sub6.jpeg",
+      "assets/img/portfolioResize/concept1/sub7.jpeg",
     ],
   },
   {
@@ -23,10 +23,10 @@
     target: "concept2",
     urlLength: 4,
     urlList: [
-      "assets/img/portfolio/concept2/sub1.jpeg",
-      "assets/img/portfolio/concept2/sub2.jpeg",
-      "assets/img/portfolio/concept2/sub3.jpeg",
-      "assets/img/portfolio/concept2/sub4.jpeg",
+      "assets/img/portfolioResize/concept2/sub1.jpeg",
+      "assets/img/portfolioResize/concept2/sub2.jpeg",
+      "assets/img/portfolioResize/concept2/sub3.jpeg",
+      "assets/img/portfolioResize/concept2/sub4.jpeg",
     ],
   },
   {
@@ -34,8 +34,8 @@
     target: "concept3",
     urlLength: 2,
     urlList: [
-      "assets/img/portfolio/concept3/sub1.jpeg",
-      "assets/img/portfolio/concept3/sub2.jpeg",
+      "assets/img/portfolioResize/concept3/sub1.jpeg",
+      "assets/img/portfolioResize/concept3/sub2.jpeg",
     ],
   },
   {
@@ -43,10 +43,10 @@
     target: "concept4",
     urlLength: 4,
     urlList: [
-      "assets/img/portfolio/concept4/sub1.jpeg",
-      "assets/img/portfolio/concept4/sub2.jpeg",
-      "assets/img/portfolio/concept4/sub3.jpeg",
-      "assets/img/portfolio/concept4/sub4.jpeg",
+      "assets/img/portfolioResize/concept4/sub1.jpeg",
+      "assets/img/portfolioResize/concept4/sub2.jpeg",
+      "assets/img/portfolioResize/concept4/sub3.jpeg",
+      "assets/img/portfolioResize/concept4/sub4.jpeg",
     ],
   },
   {
@@ -54,12 +54,12 @@
     target: "concept5",
     urlLength: 6,
     urlList: [
-      "assets/img/portfolio/concept5/sub1.jpeg",
-      "assets/img/portfolio/concept5/sub2.jpeg",
-      "assets/img/portfolio/concept5/sub3.jpeg",
-      "assets/img/portfolio/concept5/sub4.jpeg",
-      "assets/img/portfolio/concept5/sub5.jpeg",
-      "assets/img/portfolio/concept5/sub6.jpeg",
+      "assets/img/portfolioResize/concept5/sub1.jpeg",
+      "assets/img/portfolioResize/concept5/sub2.jpeg",
+      "assets/img/portfolioResize/concept5/sub3.jpeg",
+      "assets/img/portfolioResize/concept5/sub4.jpeg",
+      "assets/img/portfolioResize/concept5/sub5.jpeg",
+      "assets/img/portfolioResize/concept5/sub6.jpeg",
     ],
   },
   {
@@ -67,8 +67,8 @@
     target: "concept6",
     urlLength: 2,
     urlList: [
-      "assets/img/portfolio/concept6/sub1.jpeg",
-      "assets/img/portfolio/concept6/sub2.jpeg",
+      "assets/img/portfolioResize/concept6/sub1.jpeg",
+      "assets/img/portfolioResize/concept6/sub2.jpeg",
     ],
   },
   {
@@ -76,10 +76,10 @@
     target: "concept7",
     urlLength: 4,
     urlList: [
-      "assets/img/portfolio/concept7/sub1.jpeg",
-      "assets/img/portfolio/concept7/sub2.jpeg",
-      "assets/img/portfolio/concept7/sub3.jpeg",
-      "assets/img/portfolio/concept7/sub4.jpeg",
+      "assets/img/portfolioResize/concept7/sub1.jpeg",
+      "assets/img/portfolioResize/concept7/sub2.jpeg",
+      "assets/img/portfolioResize/concept7/sub3.jpeg",
+      "assets/img/portfolioResize/concept7/sub4.jpeg",
     ],
   },
 ];
