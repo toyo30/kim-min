@@ -63,7 +63,13 @@
   ======================================================== -->
   </head>
 
-  <body>
+  <body class="before-load">
+    <div class="loading">
+      <svg class="loading-circle">
+        <circle cx="50%" cy="50%" r="25"></circle>
+      </svg>
+    </div>
+
     <nav class="navbar navbar-light custom-navbar">
       <div class="container">
         <a class="navbar-brand" href="./">KIM MIN</a>
@@ -1106,6 +1112,7 @@
       src="https://cdn.jsdelivr.net/npm/browser-image-compression@1.0.15/dist/browser-image-compression.js"
     ></script>
     <script src="lazysizes.min.js" async=""></script>
+    <script src="./assets/js/loading.js"></script>
     <!-- <script src="assets/js/lazy.js"></script>
     <script src="assets/js/popup-img-change.js"></script> -->
   </body>
